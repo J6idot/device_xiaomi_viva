@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_viva.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_viva-user \
-    omni_viva-userdebug \
-    omni_viva-eng
+    twrp_viva-user \
+    twrp_viva-userdebug \
+    twrp_viva-eng

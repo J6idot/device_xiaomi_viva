@@ -5,6 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_viva-user
-add_lunch_combo omni_viva-userdebug
-add_lunch_combo omni_viva-eng
+echo no
