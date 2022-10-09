@@ -10,15 +10,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from viva device
 $(call inherit-product, device/xiaomi/viva/device.mk)
 
 PRODUCT_DEVICE := viva
-PRODUCT_NAME := omni_viva
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := viva
+PRODUCT_NAME := twrp_viva
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := Redmi Note 11 Pro 4G
 PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
